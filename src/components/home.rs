@@ -386,7 +386,6 @@ pub fn home() -> Html {
         </>
     };
 
-
     html! {
         <>
             <header class="bg-gradient-to-r from-rich-blue via-purple-500 to-rich-blue text-white text-center p-4">
