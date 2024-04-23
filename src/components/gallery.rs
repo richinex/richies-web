@@ -36,6 +36,7 @@ pub fn gallery() -> Html {
     }
 }
 
+
 #[derive(Properties, PartialEq)]
 pub struct GalleryItemProps {
     pub image_src: String,
