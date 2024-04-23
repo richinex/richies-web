@@ -31,7 +31,7 @@ jobs:
 
       - name: Yarn install (latest)
         run: |
-          yarn install --frozen-lockfile
+          yarn install 
           yarn global add npm@latest
 
       - name: Run Cargo tests
