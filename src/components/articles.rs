@@ -207,12 +207,12 @@ pub fn articles() -> Html {
     let articles = vec![
         ArticleItemProps {
             title: "Introduction to Yew".to_string(),
-            content: include_str!("markdown/articles/article_01_23-04-2024.md"),
+            content: include_str!("../../static/markdown/articles/article_01_23-04-2024.md"),
             filename: "article_01_23-04-2024.md".to_string(),
         },
         ArticleItemProps {
             title: "Advanced Yew Techniques".to_string(),
-            content: include_str!("markdown/articles/article_01_23-04-2024.md"),
+            content: include_str!("../../static/markdown/articles/article_01_23-04-2024.md"),
             filename: "article_02_23-04-2024.md".to_string(),
         },
         // More articles can be added here...

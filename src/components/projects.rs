@@ -111,17 +111,17 @@ pub fn projects() -> Html {
     let projects = vec![
         ProjectItemProps {
             name: "Project 1".to_string(),
-            description: include_str!("markdown/projects/project1.md"),
+            description: include_str!("../../static/markdown/projects/project1.md"),
             github_link: "https://github.com/username/project1".to_string(),
         },
         ProjectItemProps {
             name: "Project 2".to_string(),
-            description: include_str!("markdown/projects/project2.md"),
+            description: include_str!("../../static/markdown/projects/project2.md"),
             github_link: "https://github.com/username/project2".to_string(),
         },
         ProjectItemProps {
             name: "Project 3".to_string(),
-            description: include_str!("markdown/projects/project3.md"),
+            description: include_str!("../../static/markdown/projects/project3.md"),
             github_link: "https://github.com/username/project3".to_string(),
         },
         // Add more projects as needed
