@@ -19,7 +19,7 @@ module.exports = (env, argv) => {
         output: {
             path: distPath,
             filename: "richies-web.js",
-            publicPath: '/',
+            publicPath: '/richard-chukwu/',
             webassemblyModuleFilename: "richies-web.wasm",
             clean: true,
         },
